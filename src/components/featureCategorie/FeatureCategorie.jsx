@@ -27,6 +27,7 @@ const FeatureCategorie = () => {
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 4,
+        autoplaySpeed: 1500,
       };
   return (
     <div>

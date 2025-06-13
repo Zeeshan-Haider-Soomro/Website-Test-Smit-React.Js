@@ -2,12 +2,12 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { IoSearch } from "react-icons/io5";
 import { PiShoppingBag } from "react-icons/pi";
-import "./header.css"
+// import "./header.css"
 
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center p-5  header-wrapper ">
+    <div className="flex justify-between items-center p-5  fixed w-[100%] top-0 left-0 z-50 bg-white">
       <div>
         <img src="../images/logo.svg" alt="" />
       </div>

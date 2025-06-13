@@ -36,8 +36,8 @@ const FlashSale = () => {
               Flash Sales
             </h1>
             <div className=" p-5 m-5">
-                <Slider {...settings}>
-              {productSales.slice(0,12).map((item, index) => (
+                {/* <Slider {...settings}> */}
+              {productSales.map((item, index) => (
                   <div
                     className="h-[200px] w-[200px]  m-10 justify-center items-start flex flex-col p-5"
                     key={index}
@@ -48,7 +48,7 @@ const FlashSale = () => {
                   </div>
                 
               ))}
-              </Slider>
+              {/* </Slider> */}
             </div>
           </div>
           <div>

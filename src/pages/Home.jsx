@@ -5,6 +5,7 @@ import FeatureCategorie from '../components/featureCategorie/FeatureCategorie'
 import Arivals from '../components/Arival/Arivals'
 import Modal from '../components/ArivalModal/Modal'
 // import FlashSale from '../components/FlashSale/FlashSale'
+import Footer from '../components/footer/Footer'
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
         <Arivals/>
         <Modal/>
         {/* <FlashSale/> */}
+        <Footer/>
     </div>
   )
 }
